@@ -10,6 +10,7 @@
 * [时间组件](time-components.md)
 * 手势操作
 * [提示组件](tips-components.md)
+   * 加载提示
 * http请求
 * 路由
 * 统计
