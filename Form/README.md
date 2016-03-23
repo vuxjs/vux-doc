@@ -10,7 +10,7 @@ A form component has the following props:
 | `touched` | Boolean | whether field is touched. if field was focused, return true, else return false. | false | -- |
 | `untouched` | Boolean | reverse of touched | true | -- |
 | `dirty` | Boolean | whether field value was changed at least once; if so, return true, else return false. | false | -- |
-| `prisine` | Boolean | reverse of dirty | true | -- |
+| `pristine` | Boolean | reverse of dirty | true | -- |
 | `errors` | Object | if invalid field exist, return error message wrapped with array, else undefined. | {} | -- |
 
 
