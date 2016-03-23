@@ -13,6 +13,7 @@
 * 手势操作
 * [提示组件](tips-components.md)
    * 加载提示
+   * Alert
 * http请求
 * 路由
 * 统计
