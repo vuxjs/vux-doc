@@ -11,3 +11,5 @@
 + Selector 下拉
 + Range 范围
 + Rater 评分
++ Picker 滑动选择
++ Popup-picker 弹出窗口滑动选择
