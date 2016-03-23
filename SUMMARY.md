@@ -9,6 +9,7 @@
 * 图表组件
 * [时间组件](time-components.md)
    * 倒计时
+   * 秒数倒计时
 * 手势操作
 * [提示组件](tips-components.md)
 * http请求
