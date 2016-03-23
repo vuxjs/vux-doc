@@ -12,7 +12,7 @@
    * [秒数倒计时](seconds-countdown.md)
 * 手势操作
 * [提示组件](tips-components.md)
-   * 加载提示
+   * Loading
    * Alert
    * Confirm
 * http请求
