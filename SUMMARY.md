@@ -6,6 +6,7 @@
 * [表单组件](form.md)
    * [组件列表](form-components.md)
    * [x-input 单行文本输入](input.md)
+   * Switch
 * [时间组件](time-components.md)
    * [倒计时](clocker.md)
    * [秒数倒计时](seconds-countdown.md)
