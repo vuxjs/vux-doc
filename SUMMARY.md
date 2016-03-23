@@ -12,6 +12,10 @@
    * [秒数倒计时](seconds-countdown.md)
 * 手势操作
 * [提示组件](tips-components.md)
+   * Loading
+   * Alert
+   * Confirm
+   * Toast
 * http请求
 * 路由
 * 统计
