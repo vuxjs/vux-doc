@@ -15,6 +15,7 @@
    * Alert
    * Confirm
    * Toast
+   * Spinner
 * http请求
 * 路由
 * 手势操作
