@@ -1,0 +1,1 @@
+A Validator can contain any form element and handle the valid status of all child form components.
