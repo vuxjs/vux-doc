@@ -14,6 +14,7 @@
 * [提示组件](tips-components.md)
    * 加载提示
    * Alert
+   * Confirm
 * http请求
 * 路由
 * 统计
