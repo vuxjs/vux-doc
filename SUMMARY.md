@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [布局组件](chapter1.md)
 * [表单](form.md)
    * [组件列表](form-components.md)
    * [x-input 单行文本输入](input.md)
