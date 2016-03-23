@@ -4,7 +4,7 @@
    * 兼容
 * [布局组件](chapter1.md)
    * [Flexbox](flexbox.md)
-   * Tab
+   * Tab 选项卡
    * Grid 九宫格及复杂布局
    * Button 按钮
 * [表单组件](form.md)
