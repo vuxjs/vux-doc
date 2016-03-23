@@ -25,4 +25,5 @@
    * [组件开发规范](component-rules.md)
 * 感谢
 * 图片
+   * Lazy 延迟加载
 
