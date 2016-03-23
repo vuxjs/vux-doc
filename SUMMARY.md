@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [关于Vux](README.md)
 * [布局组件](chapter1.md)
 * [表单](form.md)
    * [组件列表](form-components.md)
