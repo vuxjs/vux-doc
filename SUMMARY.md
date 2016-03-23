@@ -6,6 +6,7 @@
    * [Flexbox](flexbox.md)
    * Tab
    * Grid 九宫格及复杂布局
+   * Button 按钮
 * [表单组件](form.md)
    * [组件列表](form-components.md)
    * [x-input 单行文本输入](input.md)
