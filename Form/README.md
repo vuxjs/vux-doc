@@ -12,3 +12,10 @@ A form component has the following props:
 | `prisine` | Boolean | reverse of dirty | true | -- |
 | `errors` | Object | if invalid field exist, return error message wrapped with array, else undefined. | {} | -- |
 
+
+events
+
+| name | description | params |
+| -- | -- | -- |
+| change | when value changes | currentValue |
+
