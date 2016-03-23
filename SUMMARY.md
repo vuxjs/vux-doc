@@ -24,4 +24,5 @@
 * [规范](rules.md)
    * [组件开发规范](component-rules.md)
 * 感谢
+* 图片
 
