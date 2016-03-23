@@ -7,7 +7,7 @@
    * [组件列表](form-components.md)
    * [x-input 单行文本输入](input.md)
 * 图表组件
-* 时间组件
+* [时间组件](time-components.md)
 * 手势操作
 * http请求
 * 路由
