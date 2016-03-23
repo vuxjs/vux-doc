@@ -15,6 +15,7 @@
    * Loading
    * Alert
    * Confirm
+   * Toast
 * http请求
 * 路由
 * 统计
