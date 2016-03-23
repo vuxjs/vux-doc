@@ -4,6 +4,7 @@ A form component has the following props:
 | -- | -- | -- | -- | -- |
 | `required` | Boolean |if the form item is required | false | `<radio required></radio>` |
 | `uuid` | String | element uuid | -- | -- |
+| `disabled` | Boolean | if disabled | -- |
 | `valid` | Boolean | if value is valid | false | |
 | `invalid` | Boolean | reverse of valid | true | | 
 | `touched` | Boolean | whether field is touched. if field was focused, return true, else return false. | false | -- |
