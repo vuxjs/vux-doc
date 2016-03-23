@@ -12,7 +12,7 @@
 * [提示组件](tips-components.md)
 * http请求
 * 路由
+* 规范
 * 统计
 * 感谢
-* 规范
 
