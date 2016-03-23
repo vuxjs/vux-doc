@@ -8,7 +8,7 @@
    * [x-input 单行文本输入](input.md)
 * 图表组件
 * [时间组件](time-components.md)
-   * 倒计时
+   * [倒计时](clocker.md)
    * [秒数倒计时](seconds-countdown.md)
 * 手势操作
 * [提示组件](tips-components.md)
