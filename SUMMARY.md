@@ -16,6 +16,10 @@
    * Confirm
    * Toast
    * Spinner
+* 图片
+   * Lazy 延迟加载
+   * [背景模糊](blur.md)
+   * 上传
 * http请求
 * 路由
 * 手势操作
@@ -24,8 +28,4 @@
 * [规范](rules.md)
    * [组件开发规范](component-rules.md)
 * 感谢
-* 图片
-   * Lazy 延迟加载
-   * [背景模糊](blur.md)
-   * 上传
 
