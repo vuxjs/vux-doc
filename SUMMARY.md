@@ -2,6 +2,7 @@
 
 * [关于Vux](README.md)
    * 兼容
+   * 规范
 * [布局组件](chapter1.md)
    * [Flexbox](flexbox.md)
    * Tab 选项卡
