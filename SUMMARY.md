@@ -32,11 +32,11 @@
    * [背景模糊](blur.md)
    * 上传
    * 轮播
+* [规范](rules.md)
+   * [组件开发规范](component-rules.md)
 * http请求
 * 路由
 * 手势操作
-* [规范](rules.md)
-   * [组件开发规范](component-rules.md)
 * 图表组件
 * 统计
 * 感谢
