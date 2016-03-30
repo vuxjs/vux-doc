@@ -5,6 +5,7 @@
 + Input 单行文本输入
 + Textarea 多行文本
 + Radio 单选(支持填写)
++ Switch 开关
 + Checkbox 多选
 + Selector 下拉
 + Range 范围

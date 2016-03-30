@@ -1,10 +1,10 @@
-# Summary
+# 组件目录
 
 * [关于Vux](README.md)
    * 兼容
    * [规范](component-standard.md)
    * [playground](playground.md)
-   * [组件目录](list.md)
+   * 组件目录
 * [布局组件](chapter1.md)
    * [Flexbox](flexbox.md)
    * Tab 选项卡
@@ -42,4 +42,6 @@
 * 统计
 * 感谢
 * 微信页面开发
+
+
 
