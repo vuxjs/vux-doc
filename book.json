@@ -2,7 +2,7 @@
     "plugins": [
         "codesnippet",
         "codeex",
-        "ace"
+        "vuxcode"
     ],
     "pluginsConfig": {}
 }
