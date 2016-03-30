@@ -18,12 +18,13 @@ Switch,Group
 
 ## 双向绑定
 
-{% vux height=80 %}
+{% vux height=140 %}
 <components>
 Switch,Group
 </components>
 <template>
 <group>
+  <switch :title="'双向绑定:值为' + value1" :value.sync="value1"></switch>
   <switch :title="'双向绑定:值为' + value1" :value.sync="value1"></switch>
 </group>
 </template>
