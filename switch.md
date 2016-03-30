@@ -1,6 +1,6 @@
 # Switch
 
-{% vux height=60 %}
+{% vux height=80 %}
 <components>
 Switch,Group
 </components>
