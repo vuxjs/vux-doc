@@ -1,3 +1,3 @@
-# My Awesome Book
+# Vux
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Vux 基于`vue`和`weui`的组件库。
