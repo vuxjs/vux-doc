@@ -2,9 +2,11 @@
 
 {% vux height=60 %}
 <components>
-Switch
+Switch,Group
 </components>
 <template>
-<switch title="Switch" :value=true></switch>
+<group>
+  <switch title="Switch" :value=true></switch>
+</group>
 </template>
 {% endvux %}
