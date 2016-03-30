@@ -3,6 +3,7 @@
 * [关于Vux](README.md)
    * 兼容
    * [规范](component-standard.md)
+   * playground
 * [布局组件](chapter1.md)
    * [Flexbox](flexbox.md)
    * Tab 选项卡
