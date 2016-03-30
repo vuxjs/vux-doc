@@ -15,3 +15,19 @@
 
 > 根据代码生成的页面链接，方便以iframe的方式插入页面
 
+代码和vue文件基本一致，但是增加了`<components></components>`定义调用的组件
+
+``` html
+<template>
+</template>
+
+<style>
+</style>
+
+<components>
+Radio, Switch, Input
+</components>
+
+<script>
+</script>
+```
