@@ -7,6 +7,7 @@ Switch,Group
 <template>
 <group>
   <switch title="Switch" :value=true></switch>
+  <switch title="Switch" :value=false></switch>
 </group>
 </template>
 {% endvux %}
