@@ -13,7 +13,7 @@
 * [表单组件](form.md)
    * [组件列表](form-components.md)
    * [x-input 单行文本输入](input.md)
-   * [Switch](switch.md)
+   * [Switch 开关](switch.md)
    * Calendar 日历
        * inline
    * [Radio 单选](radio.md)
