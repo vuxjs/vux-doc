@@ -35,7 +35,7 @@
    * 轮播
 * [规范](rules.md)
    * [组件开发规范](component-rules.md)
-* http请求
+* [http请求](guide/http.md)
 * 路由
 * 手势操作
 * 图表组件
