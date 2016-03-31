@@ -60,7 +60,7 @@ Switch,Group
 </components>
 <template>
 <group>
-  <switch title="<span style='color:red'>我是红色的</span>" :value=true></switch>
+  <switch title="<span style='color:red'>红色文字</span>" :value=true></switch>
 </group>
 </template>
 {% endvux %}
