@@ -2,7 +2,7 @@
 
 > 当前的flexbox仅实现了子元素水平和垂直平分。
 
-### 水平平分
+### 简单平分
 {% vux %}
 <components>Divider,Flexbox,FlexboxItem</components>
 
@@ -11,6 +11,11 @@
 <flexbox>
   <flexbox-item><div class="flex-demo">1</div></flexbox-item>
   <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+</flexbox>
+<divider>Vertical</divider>
+<flexbox orient="vertical" :margin-left=0>
+  <flexbox-item><div class="flex-demo" style="margin-left:0">1</div></flexbox-item>
+  <flexbox-item><div class="flex-demo" style="margin-left:0">2</div></flexbox-item>
 </flexbox>
 </template>
 
