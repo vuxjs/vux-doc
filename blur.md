@@ -6,6 +6,8 @@
 
 ## 示例
 
+### 纯背景
+
 {% vux height=200 %}
 <components>Blur</components>
 <style></style>
