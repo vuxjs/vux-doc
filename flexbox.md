@@ -28,3 +28,24 @@
 </style>
 {% endvux %}
 
+### 嵌套布局
+
+{% vux %}
+<template>
+<divider>Nested Flexbox</divider>
+<flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="ui-border-tb">
+  <flexbox-item class="ui-border-r"></flexbox-item>
+  <flexbox-item>
+    <flexbox orient="vertical" :margin-left=0>
+      <flexbox-item class="ui-border-b"></flexbox-item>
+      <flexbox-item style="height: 100px;"><!--height: 100% doesnot work here-->
+        <flexbox :margin-left=0>
+          <flexbox-item class="ui-border-r"></flexbox-item>
+          <flexbox-item></flexbox-item>
+        </flexbox>
+      </flexbox-item>
+    </flexbox>
+  </flexbox-item>
+</flexbox>
+</template>
+{% endvux%}
