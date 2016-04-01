@@ -36,7 +36,7 @@
 
 ### 嵌套布局
 
-{% vux %}
+{% vux height=240 %}
 <components>Divider,Flexbox,FlexboxItem</components>
 
 <template>
