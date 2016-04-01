@@ -2,7 +2,7 @@
 
 > 当前的flexbox仅实现了子元素水平和垂直平分。
 
-### 垂直平分
+### 水平平分
 {% vux %}
 <components>Divider,Flexbox,FlexboxItem</components>
 
