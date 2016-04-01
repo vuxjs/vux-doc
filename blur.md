@@ -40,7 +40,7 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 4px solid #ececec;
+  border: 2px solid #ececec;
 }
 </style>
 {% endvux %}
