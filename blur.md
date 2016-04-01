@@ -16,7 +16,7 @@
 
 ### 背景上添加内容
 
-> 通过默认<slot>支持
+> 通过默认slot支持
 
 {% vux height=200 %}
 <components>Blur</components>
