@@ -36,6 +36,8 @@
 
 ### 嵌套布局
 
+> 国内电商网站和支付应用最常见
+
 {% vux height=240 %}
 <components>Divider,Flexbox,FlexboxItem</components>
 
