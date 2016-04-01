@@ -19,6 +19,7 @@
    * [Radio 单选](radio.md)
    * [Calendar 日历](calendar.md)
    * Datetime 时间
+   * 表单验证
 * [时间组件](time-components.md)
    * [倒计时](clocker.md)
    * [秒数倒计时](seconds-countdown.md)
