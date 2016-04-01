@@ -15,7 +15,9 @@
 + allData 所有表单数据，包含`disabled`的表单值
 
 {% vux with="100%" %}
+<script>
 <validator name="demo">
   <input type="submit" value="send" v-if="$demo.valid">
 </validator>
+</script>
 {% endvux %}
