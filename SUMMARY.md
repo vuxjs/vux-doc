@@ -30,7 +30,7 @@
    * Spinner
 * [图片](image.md)
    * Lazy 延迟加载
-   * [背景模糊](blur.md)
+   * [背景模糊](image/blur.md)
    * 上传
    * 轮播
 * [规范](rules.md)
