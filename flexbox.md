@@ -1,9 +1,9 @@
 # Flexbox
 
-> 当前的flexbox仅实现了多子元素平分。
+> 当前的flexbox仅实现了子元素水平和垂直平分。
 
 {% vux %}
-<components>Divider,Flexbox,FlexboxItem</components>
+<components>Divider,Flexbox,Flexbox-item</components>
 
 <template>
 <divider>Horizontal</divider>
