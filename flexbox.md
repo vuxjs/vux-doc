@@ -4,7 +4,7 @@
 
 ### 垂直平分
 {% vux %}
-<components>Divider,Flexbox,Flexbox-item</components>
+<components>Divider,Flexbox,FlexboxItem</components>
 
 <template>
 <divider>Horizontal</divider>
@@ -32,6 +32,8 @@
 ### 嵌套布局
 
 {% vux %}
+<components>Divider,Flexbox,FlexboxItem</components>
+
 <template>
 <divider>Nested Flexbox</divider>
 <flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="ui-border-tb">
