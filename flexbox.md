@@ -8,7 +8,7 @@
 
 <template>
 <divider>Horizontal</divider>
-<flexbox>
+<flexbox style="height:40px;">
   <flexbox-item><div class="flex-demo">1</div></flexbox-item>
   <flexbox-item><div class="flex-demo">2</div></flexbox-item>
 </flexbox>
