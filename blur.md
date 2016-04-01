@@ -13,3 +13,31 @@
 <blur :blur-amount=40 url="https://o3e85j0cv.qnssl.com/tulips-1083572__340.jpg"></blur>
 </template>
 {% endvux %}
+
+### 背景上添加内容
+
+{% vux height=200 %}
+<components>Blur</components>
+
+<template>
+<blur :blur-amount=40 url="https://o3e85j0cv.qnssl.com/tulips-1083572__340.jpg">
+  <p class="center"><img :src="url"></p>
+</blur>
+</template>
+
+<style>
+.center {
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+.center img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #ececec;
+}
+</style>
+{% endvux %}
+
