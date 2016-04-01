@@ -3,9 +3,7 @@
 > 当前的flexbox仅实现了子元素水平和垂直平分。
 
 ### 简单平分
-{% vux height=180,width='100%' %}
-<components>Divider,Flexbox,FlexboxItem</components>
-
+{% vux height=180,width='100%',components='Divider,Flexbox,FlexboxItem' %}
 <template>
 <divider>Horizontal</divider>
 <flexbox style="height:40px;">
@@ -38,9 +36,7 @@
 
 > 国内电商网站和支付应用最常见
 
-{% vux height=240,width='100%' %}
-<components>Divider,Flexbox,FlexboxItem</components>
-
+{% vux height=240,width='100%',components='Divider,Flexbox,FlexboxItem' %}
 <template>
 <divider>Nested Flexbox</divider>
 <flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="ui-border-tb">
