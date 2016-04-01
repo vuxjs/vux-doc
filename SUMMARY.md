@@ -28,7 +28,7 @@
    * Confirm
    * Toast
    * Spinner
-* 图片
+* [图片](image.md)
    * Lazy 延迟加载
    * [背景模糊](blur.md)
    * 上传
