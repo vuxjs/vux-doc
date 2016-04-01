@@ -3,7 +3,7 @@
 > 当前的flexbox仅实现了子元素水平和垂直平分。
 
 ### 简单平分
-{% vux height=350 %}
+{% vux height=100 %}
 <components>Divider,Flexbox,FlexboxItem</components>
 
 <template>
