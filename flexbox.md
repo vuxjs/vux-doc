@@ -1,5 +1,7 @@
 # Flexbox
 
+> Flexbox功能由`Flexbox`及`FlexboxItem`子组件组成。
+
 > 当前的flexbox仅实现了子元素水平和垂直平分。
 
 ### 简单平分
@@ -23,10 +25,7 @@
   color: #fff;
   background-color: #20b907;
   margin-bottom: 8px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-radius: 4px;
   -webkit-background-clip: padding-box;
 }
 </style>
@@ -36,10 +35,11 @@
 
 > 国内电商网站和支付应用最常见
 
-{% vux height=240,width='100%',components='Divider,Flexbox,FlexboxItem' %}
+> 1像素边框实现请参考1px解决方案
+
+{% vux height=240,width='100%',components='Flexbox,FlexboxItem' %}
 <template>
-<divider>Nested Flexbox</divider>
-<flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="ui-border-tb">
+<flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="ui-border-tb ui-border-l ui-border-r">
   <flexbox-item class="ui-border-r"></flexbox-item>
   <flexbox-item>
     <flexbox orient="vertical" :margin-left=0>
