@@ -18,12 +18,15 @@
    * [Tab 选项卡](tab.md)
    * Search 搜索
    * Divider 横向分隔线
+   * [1px解决方案](ui/1px.md)
 * [动态检测](check/readme.md)
    * enter-view 进入可视区域检测
    * 屏幕翻转
    * 手机摇一摇
 * [表单组件](form.md)
    * [x-input 单行文本输入](input.md)
+   * [x-textarea 多行输入框](form/x-textarea.md)
+   * [x-number 数字输入](form/x-number.md)
    * [Switch 开关](switch.md)
    * Rater 评分
    * Calendar 日历
@@ -52,6 +55,7 @@
 * 路由
 * 手势操作
 * 图表组件
+   * [Circle 圆圈](chart/circle.md)
 * 统计
 * 感谢
 * 微信页面开发

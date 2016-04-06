@@ -18,6 +18,7 @@
 
 + 尽量简单、标准。如果与原生标签一样，在前面加上`x`，如`x-input`,`x-textarea`,`x-img`
 + export 出来的对象命名为`驼峰式`，如`Radio`,`XInput`,`XTextarea`
++ 假设存子组件，子组件命名在父组件后面加上item, 如`flexbox`及`flexbox-item`, `tab`及`tab-item`
 
 ### 组件目录
 
