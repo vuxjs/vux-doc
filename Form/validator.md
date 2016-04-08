@@ -1,7 +1,7 @@
 # Validator
 
 
-> `不能`依赖前端验证，后端必须同样做验证。
+> `绝对不能只依赖前端验证`，后端必须同样做必要的验证。
 
 唯一需要设置的是`name`属性，用于保存验证信息
 
@@ -14,8 +14,10 @@
 + data 表单数据，不包含`disabled`的表单值
 + allData 所有表单数据，包含`disabled`的表单值
 
-{% vux with=100% %}
+{% vux with="100%" %}
+<script>
 <validator name="demo">
   <input type="submit" value="send" v-if="$demo.valid">
 </validator>
+</script>
 {% endvux %}

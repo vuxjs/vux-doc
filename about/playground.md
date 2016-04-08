@@ -26,31 +26,4 @@
 <span> <<arg>> </span>
 ```
 
-``` html
-// demo写法和 vue 文件一致，使用template, script, style标签。
-// vux区域的with指定宽度，默认为100%,height指定高度，components指定使用到的组件名字
-
-{% vux width=100,height=50,components="Tab,TabItem" %} 
-<template>
-<tab>
-  <tab-item :selected="demo1 === '已发货'" @click="demo1 = '已发货'">已发货</tab-item>
-  <tab-item :selected="demo1 === '未发货'" @click="demo1 = '未发货'">未发货</tab-item>
-  <tab-item :selected="demo1 === '全部订单'" @click="demo1 = '全部订单'">全部订单</tab-item>
-</tab>
-</template>
-
-<script>
-export default {
-  data: {
-    demo1: '未发货'
-  }
-}
-</script>
-
-<style>
-.selector {
-  color: red;
-}
-</style>
-{% endvux %}
-```
+因为Gitbook会错误渲染源代码，因此请看这里的粟子: [Circle.md](https://raw.githubusercontent.com/vuxjs/vux-doc/master/chart/circle.md)

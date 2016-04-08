@@ -2,8 +2,8 @@
 
 * [关于Vux](README.md)
    * [兼容](about/component-compatibility.md)
-   * [规范](component-standard.md)
-   * [playground](playground.md)
+   * [组件规范](about/component-standard.md)
+   * [playground](about/playground.md)
    * 谁在使用
    * 最佳实践
 * 安装
