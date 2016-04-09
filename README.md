@@ -31,6 +31,18 @@ Vux 基于`vue`和`weui`的组件库。
 
 Vux的目标是：
 
-+ 满足手机端页面大部分组件需求。
-+ 体积小(甚至不依赖`Zepto`)。
-+ 简洁优雅。
++ 尽量满足手机端页面大部分组件需求。
++ 尽量保持小体积(甚至不依赖`Zepto`)。
++ 尽量简洁优雅。
+
+### 文档修订
+
+``` bash
+# 安装gitbook-cli
+npm install gitbook-cli -g
+
+# cd到文档目录
+gitbook install
+gitbook serve
+
+```

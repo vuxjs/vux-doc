@@ -16,7 +16,6 @@
    * Sticky 自动固定在顶部
    * [BottomTabBar 底部导航](layout/bottom-tab-bar.md)
 * [UI组件](ui/readme.md)
-   * [XButton 按钮](button.md)
    * [Tab 选项卡](layout/tab.md)
    * Search 搜索
    * Divider 横向分隔线
@@ -26,6 +25,7 @@
    * 屏幕翻转
    * 手机摇一摇
 * [表单组件](form.md)
+   * [x-button 按钮](form/x-button.md)
    * [x-input 单行文本输入](input.md)
    * [x-textarea 多行输入框](form/x-textarea.md)
    * [x-number 数字输入](form/x-number.md)
@@ -56,7 +56,7 @@
    * [半透明遮罩](image/masker.md)
    * [轮播](image/swiper.md)
 * [http请求](guide/http.md)
-* 路由
+* [router 路由](guide/router.md)
 * 手势操作
 * 图表组件
    * [Circle 圆圈](chart/circle.md)
