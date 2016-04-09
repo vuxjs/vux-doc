@@ -1,8 +1,6 @@
 # swiper
 
-{% vux height=400 %}
-<components>Swiper</components>
-
+``` vux height=200 components=Swiper
 <template>
 <div>
   <swiper :list="list" :auto=true></swiper>
@@ -30,4 +28,4 @@ export default {
   }
 }
 </script>
-{% endvux %}
+```

@@ -5,7 +5,7 @@
 > 当前的flexbox仅实现了子元素水平和垂直平分。
 
 ### 简单平分
-```
+``` vux height=200 components=Flexbox,FlexboxItem,Divider
 <template>
 <divider>Horizontal</divider>
 <flexbox style="height:40px;">
@@ -36,7 +36,7 @@
 
 > 1像素边框实现请参考1px解决方案
 
-{% vux height=240,width='100%',components='Flexbox,FlexboxItem' %}
+``` vux height=210 components=Flexbox,FlexboxItem
 <template>
 <flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="ui-border-tb ui-border-l ui-border-r">
   <flexbox-item class="ui-border-r"></flexbox-item>
@@ -53,4 +53,4 @@
   </flexbox-item>
 </flexbox>
 </template>
-{% endvux%}
+```

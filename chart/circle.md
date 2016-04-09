@@ -9,28 +9,25 @@
 
 ### 简单示例
 
-{% vux components="Circle" %}
-
+``` vux components=Circle
 <template>
 <div style='width:100px;height:100px;'>
-  <circle :percent=30 :stroke-width=10 stroke-color=#04BE02>
+  <circle :percent=30 :stroke-width=5 stroke-color=#04BE02>
     <span>{{percent1}}</span>
   </circle>
 </div>
 </template>
-
-{% endvux %}
+```
 
 ### 添加中间内容
 
 > 通过默认slot支持
 
-{% vux components="Circle" %}
-
+``` vux components=Circle
 <template>
 <div style='width:100px;height:100px;'>
   <circle :percent='percent2' :stroke-width=6 :trail-width=6 :stroke-color='strokeColor2' trail-color="#ececec">
-    <span :style="{color: strokeColor2}"><<percent2>>%</span>
+    <span :style="{color: strokeColor2}">{{percent2}}%</span>
   </circle>
 </div>
 </template>
@@ -55,6 +52,5 @@ export default {
   }
 }
 </script>
-{% endvux %}
-
+```
 

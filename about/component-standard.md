@@ -18,7 +18,7 @@
 
 + 尽量简单、标准。如果与原生标签一样，在前面加上`x`，如`x-input`,`x-textarea`,`x-img`
 + export 出来的对象命名为`驼峰式`，如`Radio`,`XInput`,`XTextarea`
-+ 假设存子组件，子组件命名在父组件后面加上item, 如`flexbox`及`flexbox-item`, `tab`及`tab-item`
++ 假设存子组件，子组件命名在父组件后面加上`-item`, 如`flexbox`及`flexbox-item`, `tab`及`tab-item`
 
 ### 组件目录
 
@@ -26,7 +26,7 @@
 
 ### 组件属性
 
-+ 必须规定`type`进行类型验证
++ 必须规定`type`或者`validator`进行类型验证
 + 类型为`Number`不需要加`coerce`
 
 ## 2. 事件
@@ -42,14 +42,7 @@
 + 不能为`片断`模板
 + `class`和`style`超过两个属性要写到`computed`里
 
-## 4. PR规范
-
-+ 修改前确认已经`rebase`了开发分支代码
-+ 只修改组件源代码，不需要进行`build`操作
-+ 遵从代码缩进规范，`npm run dev`时没有`eslint`错误
-
-
-## 5. 版本发布
+## 4. 版本发布
 
 + 修改`package.json`的version
 + 添加`git tag`

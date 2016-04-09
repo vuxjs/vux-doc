@@ -1,9 +1,6 @@
 {
-    "plugins": [
-		"prism",
-        "codesnippet",
-        "codeex",
-        "vuxcode"
-    ],
-    "pluginsConfig": {}
+  "plugins": [
+    "vuxcode"
+  ],
+  "pluginsConfig": {}
 }
