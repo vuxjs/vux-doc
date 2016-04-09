@@ -29,7 +29,8 @@
    * [x-input 单行文本输入](input.md)
    * [x-textarea 多行输入框](form/x-textarea.md)
    * [x-number 数字输入](form/x-number.md)
-   * [Switch 开关](switch.md)
+   * [checklist 多选](form/checklist.md)
+   * [Switch 开关](form/switch.md)
    * [Cell](form/cell.md)
    * Rater 评分
    * Calendar 日历

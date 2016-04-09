@@ -4,24 +4,18 @@
 
 ## 直接值
 
-{% vux height=160 %}
-<components>
-Switch,Group
-</components>
+``` vux height=160 components=Switch,Group
 <template>
 <group>
   <switch title="Switch" :value=true></switch>
   <switch title="Switch" :value=false></switch>
 </group>
 </template>
-{% endvux %}
+```
 
 ## 双向绑定
 
-{% vux height=140 %}
-<components>
-Switch,Group
-</components>
+``` vux height=140 components=Switch,Group
 <template>
 <group>
   <switch :title="'双向绑定:值为' + value1" :value.sync="value1"></switch>
@@ -36,12 +30,11 @@ export default {
   }
 }
 </script>
-{% endvux %}
-
+```
 
 ### disabled 设置不可更改
 
-{% vux height=140 %}
+``` vux height=140 components=Switch,Group
 <components>
 Switch,Group
 </components>
@@ -51,27 +44,21 @@ Switch,Group
   <switch title="不可更改" :value=false disabled></switch>
 </group>
 </template>
-{% endvux %}
+```
 
 ### title支持html
 
-{% vux height=80 %}
-<components>
-Switch,Group
-</components>
+``` vux height=80 components=Switch,Group
 <template>
 <group>
   <switch title="<span style='color:red'>红色文字</span>" :value=true></switch>
 </group>
 </template>
-{% endvux %}
+```
 
 ### on-change 事件
 
-{% vux height=80 %}
-<components>
-Switch,Group
-</components>
+``` vux height=80 components=Switch,Group
 <template>
 <group>
   <switch title="监听事件" :value=true @on-change="change"></switch>
@@ -86,6 +73,5 @@ export default {
   }
 }
 </script>
-{% endvux %}
-
+```
 
