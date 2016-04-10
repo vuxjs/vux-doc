@@ -44,10 +44,10 @@
    * [秒数倒计时](date/seconds-countdown.md)
    * [轻量时间格式化](date/format.md)
    * 相对时间
-* [提示组件](tips-components.md)
+* 提示组件
    * Loading
-   * Alert
-   * Confirm
+   * [Alert](message/alert.md)
+   * [Confirm](message/confirm.md)
    * Toast
    * Spinner
 * [图片](image.md)

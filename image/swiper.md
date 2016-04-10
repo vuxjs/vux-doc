@@ -3,7 +3,7 @@
 ``` vux height=200 components=Swiper
 <template>
 <div>
-  <swiper :list="list" :auto=true></swiper>
+  <swiper :list="list" auto></swiper>
 <div>
 </template>
 

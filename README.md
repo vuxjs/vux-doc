@@ -1,3 +1,5 @@
+# Vux
+
 <p align="center">
   <a href="http://vux.li">
     <img src="https://raw.githubusercontent.com/airyland/vux/master/logo.png">
