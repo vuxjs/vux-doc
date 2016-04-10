@@ -32,7 +32,7 @@
    * [checklist 多选](form/checklist.md)
    * [Switch 开关](form/switch.md)
    * [Cell](form/cell.md)
-   * Rater 评分
+   * [Rater 评分](form/rater.md)
    * Calendar 日历
        * inline
    * [Radio 单选](radio.md)
