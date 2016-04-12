@@ -26,7 +26,7 @@
    * 手机摇一摇
 * [表单组件](form.md)
    * [x-button 按钮](form/x-button.md)
-   * [x-input 单行文本输入](input.md)
+   * [x-input 单行文本输入](form/input.md)
    * [x-textarea 多行输入框](form/x-textarea.md)
    * [x-number 数字输入](form/x-number.md)
    * [checklist 多选](form/checklist.md)
