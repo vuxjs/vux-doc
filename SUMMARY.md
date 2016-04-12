@@ -18,7 +18,7 @@
 * [UI组件](ui/readme.md)
    * [Tab 选项卡](layout/tab.md)
    * Search 搜索
-   * Divider 横向分隔线
+   * [Divider 横向分隔线](layout/divider.md)
    * [1px解决方案](ui/1px.md)
 * [动态检测](check/readme.md)
    * enter-view 进入可视区域检测
@@ -39,6 +39,7 @@
    * [Calendar 日历](calendar.md)
    * Datetime 时间
    * [表单验证](validator.md)
+   * [Range](form/range.md)
 * 时间组件
    * [日期倒计时](date/clocker.md)
    * [秒数倒计时](date/seconds-countdown.md)
