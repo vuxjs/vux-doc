@@ -35,7 +35,7 @@
    * [Rater 评分](form/rater.md)
    * Calendar 日历
        * inline
-   * [Radio 单选](radio.md)
+   * [Radio 单选](form/radio.md)
    * [Calendar 日历](calendar.md)
    * Datetime 时间
    * [表单验证](validator.md)
