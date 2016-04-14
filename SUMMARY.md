@@ -36,8 +36,8 @@
    * Calendar 日历
        * inline
    * [Radio 单选](form/radio.md)
-   * [Calendar 日历](calendar.md)
-   * Datetime 时间
+   * [Calendar 日历](form/calendar.md)
+   * [Datetime 时间](form/datetime.md)
    * [表单验证](validator.md)
    * [Range](form/range.md)
 * 时间组件
