@@ -21,6 +21,7 @@
    * [Divider 横向分隔线](layout/divider.md)
    * [1px解决方案](ui/1px.md)
    * [Actionsheet 上拉菜单](ui/actionsheet.md)
+   * [Progress 进度条](ui/progress.md)
 * [动态检测](check/readme.md)
    * enter-view 进入可视区域检测
    * 屏幕翻转
