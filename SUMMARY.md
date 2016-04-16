@@ -13,7 +13,7 @@
    * [使用script引入](install/script.md)
 * 布局组件
    * [Flexbox](layout/flexbox.md)
-   * Sticky 自动固定在顶部
+   * [Sticky 自动固定在顶部](layout/sticky.md)
    * [BottomTabBar 底部导航](layout/bottom-tab-bar.md)
 * [UI组件](ui/readme.md)
    * [Tab 选项卡](layout/tab.md)
