@@ -1,4 +1,22 @@
-# swiper
+# swiper 轮播
+
+## API
+
+
+| 参数         | 说明                  | 类型        | 默认值 |
+| ----------- | ---------------------- | ---------- | ------- |
+| list | 列表数据 | Array | 无 |
+| direction | 滑动方向，支持(horizontal, vertical) | String | horizontal |
+| show_dots | 是否显示提示器 | Boolean | true |
+| auto | 是否自动播放 | Boolean | false |
+| interval | 轮播时间间隔 | Number | 3000 |
+| threshold | 滑动距离阀值，当按住屏幕滑动超过此距离，松开手时，自动滑，否则不滑动 | Number | 50 |
+| duration | 滑屏动画时间，单位ms，数值越小，滑动越快 | Number | 300 |
+| height | 容器高度 | Number | 180 |
+
+## 示例
+
+### 基本使用
 
 ``` vux height=200 components=Swiper
 <template>
