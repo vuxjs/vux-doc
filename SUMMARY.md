@@ -36,10 +36,9 @@
    * [Switch 开关](form/switch.md)
    * [Cell](form/cell.md)
    * [Rater 评分](form/rater.md)
-   * Calendar 日历
-       * inline
+   * [Calendar-inline 行内日历](form/calendar-inline.md)
    * [Radio 单选](form/radio.md)
-   * [Calendar 日历](form/calendar.md)
+   * [Calendar 日历(deprecated)](form/calendar.md)
    * [Datetime 时间](form/datetime.md)
    * [表单验证](validator.md)
    * [Range](form/range.md)
