@@ -6,7 +6,7 @@
 
 + `slot` 内容插槽
 + `:prop` `:prop.sync` `:prop.once` 属性赋值
-+ `@click` `events` 事件
++ `@click` `events` `$dispatch` 事件
 
 ## 文档链接
 

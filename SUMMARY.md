@@ -1,6 +1,7 @@
 # Summary
 
 * [关于Vux](README.md)
+   * [开始使用之前](about/before.md)
    * [兼容](about/component-compatibility.md)
    * [组件规范](about/component-standard.md)
    * [PR规范](about/PR.md)
@@ -39,6 +40,7 @@
    * [Calendar-inline 行内日历](form/calendar-inline.md)
    * [Radio 单选](form/radio.md)
    * [Calendar 日历(deprecated)](form/calendar.md)
+   * [Checker 灵活的选择组件](form/checker.md)
    * [Datetime 时间](form/datetime.md)
    * [表单验证](validator.md)
    * [Range](form/range.md)
