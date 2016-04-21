@@ -25,9 +25,9 @@
    * [Progress 进度条](ui/progress.md)
    * [Popup 弹出层](ui/popup.md)
 * [动态检测](check/readme.md)
-   * enter-view 进入可视区域检测
-   * 屏幕翻转
-   * 手机摇一摇
+   * [enter-view 进入可视区域检测](detection/enter-view.md)
+   * [屏幕翻转](detection/rotation.md)
+   * [手机摇一摇](detection/shake.md)
 * [表单组件](form.md)
    * [x-button 按钮](form/x-button.md)
    * [x-input 单行文本输入](form/input.md)
