@@ -26,7 +26,7 @@
    * [Popup 弹出层](ui/popup.md)
 * [动态检测](check/readme.md)
    * [enter-view 进入可视区域检测](detection/enter-view.md)
-   * [屏幕翻转](detection/rotation.md)
+   * [屏幕翻转](detection/orientation.md)
    * [手机摇一摇](detection/shake.md)
 * [表单组件](form.md)
    * [x-button 按钮](form/x-button.md)
@@ -63,6 +63,7 @@
    * 上传
    * [半透明遮罩](image/masker.md)
    * [轮播](image/swiper.md)
+   * [表情图片](image/wechat-emotion.md)
 * [http请求](guide/http.md)
 * [router 路由](guide/router.md)
 * 手势操作
