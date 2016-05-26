@@ -2,6 +2,7 @@
 
 * [关于Vux](README.md)
    * [开始使用之前](about/before.md)
+   * [常见问题](about/questions.md)
    * [兼容](about/component-compatibility.md)
    * [组件规范](about/component-standard.md)
    * [PR规范](about/PR.md)
@@ -30,7 +31,7 @@
    * [手机摇一摇](detection/shake.md)
 * [表单组件](form.md)
    * [x-button 按钮](form/x-button.md)
-   * [x-input 单行文本输入](form/input.md)
+   * [x-input 单行文本输入](form/x-input.md)
    * [x-textarea 多行输入框](form/x-textarea.md)
    * [x-number 数字输入](form/x-number.md)
    * [checklist 多选](form/checklist.md)

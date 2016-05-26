@@ -2,6 +2,9 @@
 
 > 命名为`x-input`避免与原生`input`标签渲染冲突
 
+
+> 注意不要混淆：`x-input`不是原生`input`,不能使用`v-model`,数据绑定语法为`:value.sync`
+
 ## 属性
 + title 输入框标题
 + inline-desc 标题下方描述
