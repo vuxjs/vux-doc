@@ -21,7 +21,7 @@
    * Search 搜索
    * [Divider 横向分隔线](layout/divider.md)
    * [1px解决方案](ui/1px.md)
-   * [Actionsheet 上拉菜单](ui/actionsheet.md)
+   * [Actionsheet](ui/actionsheet.md)
    * [Progress 进度条](ui/progress.md)
    * [Popup 弹出层](ui/popup.md)
 * [动态检测](check/readme.md)
