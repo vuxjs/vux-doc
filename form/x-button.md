@@ -1,6 +1,6 @@
 # x-button 按钮
 
-## API
+## Props
 
 > 按钮文字可以用text属性也可以用直接用默认slot
 
@@ -8,8 +8,15 @@
 | ----------- | ---------------------- | ---------- | ------- |
 | type | 可选，可选值为default,primary,warn | String | default |
 | disabled | 可选，是否disabled | Boolean | false |
-| 默认slot | 可选，按钮文字 | DOM | 无 |
 | text | 可选，按钮文字 | String | 无 |
+| mini | 可选，是否为小尺寸 | Boolean | false |
+| plain | 可选，是否为plain样式(没有背景色) | Boolan | false |
+
+## Slots
+
+| 名字 | 说明  |
+|-----|-----|
+| 默认slot | 按钮文字 |
 
 
 ### 一般使用

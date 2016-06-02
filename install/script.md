@@ -4,9 +4,16 @@
 
 但是非新项目确实存在非.vue组件的调用形式。vux提供了所有组件的压缩包以及各个组件分别打包的文件。
 
+## 下载
+
++ 从[Github Release](https://github.com/airyland/vux/releases)下载
++ `bower install vux`
+
+## 使用
+
 ``` html
 <!--include Vux style-->
-<link rel="stylesheet" href="vux/vux.css">
+<link rel="stylesheet" href="vux/dist/vux.css">
 <!--include Vue yourself-->
 <script src="vue.js"></script>
 

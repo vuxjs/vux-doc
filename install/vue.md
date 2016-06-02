@@ -14,7 +14,7 @@ cd my-project
 # npm可能出现访问速度极慢的情况，推荐使用cnpm
 npm install
 #安装 vux 
-npm install vux@dev
+npm install vux
 # 调试
 npm run dev
 ```
@@ -40,8 +40,8 @@ npm run dev
 </template>
 
 <script>
-import Group from 'vux/src/components/group/'
-import Cell from 'vux/src/components/cell/'
+import Group from 'vux/src/components/group'
+import Cell from 'vux/src/components/cell'
 
 export default {
   components: {

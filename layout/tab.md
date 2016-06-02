@@ -1,6 +1,8 @@
 # Tab 选项卡
 
-## tab 选项
+## Props
+
+### tab
 
 | 参数         | 说明                  | 类型        | 默认值 |
 | ----------- | ---------------------- | ---------- | ------- |
@@ -9,13 +11,13 @@
 | default-color | 可选，默认文字的颜色 | String | #666 |
 | animate | 可选，是否使用动画 | Boolean | true |
 
-## tab-item 选项
+### tab-item
 
 | 参数         | 说明                  | 类型        | 默认值 |
 | ----------- | ---------------------- | ---------- | ------- |
 | selected | 是否高亮 | Boolean | false |
 
-### 基本粟子
+### Demo
 
 ``` vux height=50 components=Tab,TabItem
 <template>
@@ -28,8 +30,10 @@
 
 <script>
 export default {
-  data: {
-    demo1: '未发货'
+  data () {
+    return {
+      demo1: '未发货'
+    }
   }
 }
 </script>
@@ -40,16 +44,18 @@ export default {
 ``` vux height=50 components=Tab,TabItem
 
 <template>
-<tab :line-width=2 active-color='#fc378c'>
+<tab :line-width="2" active-color="#fc378c">
   <tab-item :selected="demo2 === item" v-for="item in list2" @click="demo2 = item"><<item>></tab-item>
 </tab>
 </template>
 
 <script>
 export default {
-  data: {
-    demo2: '美食',
-    list2: ['精选', '美食', '电影', '酒店', '外卖']
+  data () {
+    return {
+      demo2: '美食',
+      list2: ['精选', '美食', '电影', '酒店', '外卖']
+    }
   }
 }
 </script>
@@ -60,16 +66,18 @@ export default {
 
 ``` vux height=50 components=Tab,TabItem
 <template>
-<tab :line-width=1 :animate=false>
+<tab :line-width="1" :animate="false">
   <tab-item :selected="demo2 === item" v-for="item in list2" @click="demo2 = item"><<item>></tab-item>
 </tab>
 </template>
 
 <script>
 export default {
-  data: {
-    demo2: '美食',
-    list2: ['精选', '美食', '电影', '酒店', '外卖']
+  data () {
+    return {
+      demo2: '美食',
+      list2: ['精选', '美食', '电影', '酒店', '外卖']
+    }
   }
 }
 </script>

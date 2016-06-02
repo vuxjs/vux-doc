@@ -2,7 +2,7 @@
 
 ## Demo
 
-> 建议打开新窗口查看效果
+> 请打开新窗口查看效果
 
 ``` vux width=100% height=400 components=Sticky,Tab,TabItem
 

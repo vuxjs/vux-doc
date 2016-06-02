@@ -2,13 +2,23 @@
 
 >  `Radio`必须和`Group`一起使用。
 
-## 属性
+## Props
 
-+ options Array 选项列表,非空
-+ value 值，双向绑定
-+ fillMode Boolean,是否增加自定义输入框
-+ fillPlaceholder String,自定义输入框的提示
-+ fillLable String,自定义输入框标签
+| 名字 | 类型 | 默认 | 描述 |
+|-----|-----|-----|-----|
+| options | Array | 无 | 选项列表, 支持简单数组及key=>value键值对，使用键值对时表单值为key |
+| value | String | 无 | 表单值，必选，双向绑定 |
+| fill-mode | Boolean | false | 是否增加自定义输入框 |
+| fill-placeholder | String | 无 |自定义输入框的提示 |
+| fill-lable | String | 无 | 自定义输入框标签 |
+
+## Events
+
+
+| 名字 | 参数  | 描述 |
+|-----|-----|-----|
+| on-change | value | 值变化时触发 |
+
 
 ## 预设值
 

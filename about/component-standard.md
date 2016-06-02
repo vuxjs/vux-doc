@@ -23,11 +23,12 @@
 ### 组件目录
 
 + 每个组件为单独的目录，位于`src/components/`下，目录名全小写，入口文件为`index.vue`
++ 若项目包含子组件，入口文件同样为`index.vue`，同时目录下包含与组件名同名的文件，如`tab.vue`、`tab-item.vue`
 
 ### 组件属性
 
 + 必须规定`type`或者`validator`进行类型验证
-+ 类型为`Number`不需要加`coerce`
++ 不要加`coerce`
 
 ## 2. 事件
 
@@ -39,7 +40,7 @@
 
 ## 3. 模板
 
-+ 不能为`片断`模板
++ 不能为`片断`模板(不会暴露至外部使用的公用小组件除外)
 + `class`和`style`超过两个属性要写到`computed`里
 
 ## 4. 版本发布
@@ -47,5 +48,6 @@
 + 修改`package.json`的version
 + 添加`git tag`
 + `npm publish`
-+ `git push`
++ `git push origin master`
++ `git push origin tag`
 + 登录`Github`修改最新release的发布信息

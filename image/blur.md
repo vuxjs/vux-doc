@@ -4,6 +4,23 @@
 
 背景模糊常用于个人中心的头像背景, 音乐播放界面的背景。
 
+## Props
+
+| 名字 | 类型 | 默认 | 描述 |
+|-----|-----|-----|-----|
+| url | String | 无 | 图片地址 |
+| height | Number | 200 | 高度 |
+| blur-amount| Number | 10 | 模糊程度 |
+
+
+## Slots
+
+
+| 名字  | 描述 |
+|-----|-----|
+| 默认slot | 图片上面内容 |
+
+
 ## 示例
 
 ### 纯背景
@@ -42,17 +59,4 @@
   border: 2px solid #ececec;
 }
 </style>
-```
-
-``` vux height=100 components=Blur
-<template>
-<masker style="border-radius: 2px;" color="F9C90C" :opacity="0.8">
-  <div class="m-img" style="background-image:url(https://cdn.xiaotaojiang.com/uploads/56/4b3601364b86fdfd234ef11d8712ad/_.jpg)"></div>
-  <div slot="content" class="m-title">
-    VUX
-    <br/>
-    <span class="m-time">2016-03-18</span>
-  </div>
-</masker>
-</template>
 ```

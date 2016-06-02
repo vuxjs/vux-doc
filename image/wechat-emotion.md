@@ -6,10 +6,12 @@
 
 ## Demo
 
-``` vux height=100 components=WechatEmotion
+``` vux height=250 components=WechatEmotion
 <template>
   <div>
     <wechat-emotion v-for="txt in list" track-by="$index">{{txt}}</wechat-emotion>
+    <br>
+    <wechat-emotion v-for="txt in list" track-by="$index" is-gif>{{txt}}</wechat-emotion>
   </div>
 </template>
 <script>

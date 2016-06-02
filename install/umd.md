@@ -14,7 +14,7 @@ cd my-project
 # npm可能出现访问速度极慢的情况，推荐使用cnpm
 npm install
 #安装 vux 
-npm install vux@dev
+npm install vux
 # 调试
 npm run dev
 ```
@@ -30,12 +30,12 @@ npm run dev
 </template>
 
 <script>
-// 不推荐的方式，会打包所有vux模块，体积最小
+// 不推荐的方式，会打包所有vux模块
 import { Group, Cell } from 'vux'
 
 // 推荐的方式，按需加载需要的组件
-import Group from 'vux/components/group/'
-import Cell from 'vux/components/cell/'
+import Group from 'vux/dist/components/group'
+import Cell from 'vux/dist/components/cell/'
 
 export default {
   components: {

@@ -2,8 +2,6 @@
 
 > Flexbox功能由`Flexbox`及`FlexboxItem`子组件组成。
 
-> 当前的flexbox仅实现了子元素水平和垂直平分。
-
 ### 简单平分
 ``` vux height=200 components=Flexbox,FlexboxItem,Divider
 <template>
@@ -38,14 +36,14 @@
 
 ``` vux height=210 components=Flexbox,FlexboxItem
 <template>
-<flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="ui-border-tb ui-border-l ui-border-r">
-  <flexbox-item class="ui-border-r"></flexbox-item>
+<flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="vux-1px-tb vux-1px-l vux-1px-r">
+  <flexbox-item class="vux-1px-r" style="height:200px;"></flexbox-item>
   <flexbox-item>
     <flexbox orient="vertical" :margin-left=0>
-      <flexbox-item class="ui-border-b"></flexbox-item>
+      <flexbox-item class="vux-1px-b"></flexbox-item>
       <flexbox-item style="height: 100px;"><!--height: 100% doesnot work here-->
         <flexbox :margin-left=0>
-          <flexbox-item class="ui-border-r"></flexbox-item>
+          <flexbox-item class="vux-1px-r"></flexbox-item>
           <flexbox-item></flexbox-item>
         </flexbox>
       </flexbox-item>

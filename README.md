@@ -14,9 +14,6 @@
 </p>
 <p align="center">Vux = Vue + WeUI + A Bunch of Components </p>
 <p align="center">
-  <a href="https://circleci.com/gh/airyland/vux">
-    <img src="https://img.shields.io/circleci/project/airyland/vux/master.svg?style=flat-square" alt="">
-  </a>
   <a href="https://www.npmjs.com/package/vux">
     <img src="https://img.shields.io/npm/v/vux.svg?style=flat-square" alt="">
   </a>
@@ -28,6 +25,8 @@
   </a>
 </p>
 
+# Vux
+
 Vux 基于`Vue`和`WeUI`的组件库。
 
 Vux的目标是：
@@ -36,9 +35,21 @@ Vux的目标是：
 + 尽量保持小体积(甚至不依赖`Zepto`)。
 + 尽量简洁优雅。
 
+## Demo
+
+<p align="center">
+  <a href="https://vux.li/?x-page=github_readme">https://vux.li</a><br/>
+  <img src="https://raw.githubusercontent.com/airyland/vux/master/assets/qr.png" width="300">
+</p>
+
 ### 文档修订
 
+
+
 ``` bash
+# clone the doc repo
+git clone https://github.com/vuxjs/vux-doc.git
+
 # 安装gitbook-cli
 npm install gitbook-cli -g
 
