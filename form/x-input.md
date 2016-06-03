@@ -33,14 +33,11 @@
 | on-change | (value) | 当值改变时触发 |
 
 
-## Slots
-
-
 ## Demos
 
 ``` html
 <!-- 必须输入6-10位的电子邮件地址 -->
-<x-input :min=6 :max=10 is-type=email></x-input>
+<x-input :min=6 :max=10 is-type=email :value.sync="value"></x-input>
 <!-- 手机号码验证 -->
 <x-input 
     title="手机号"
@@ -52,4 +49,22 @@
     title="等值判断"
     type="text"
     equal-with="123456"></x-input>
+```
+
+### 获取验证状态
+
+``` vux height=200 components=Group,Cell,XInput
+<template>
+<group title="check if value is valid when required===true">
+  <x-input :value.sync="value" title="message" placeholder="I'm placeholder" v-ref:input></x-input>
+  <cell title="get valid value" :value="'$valid value:' + $refs.input.valid"></cell>
+</group>
+</template>
+<script>
+export default {
+  data () {
+    value: ''
+  }
+}
+</script>
 ```
