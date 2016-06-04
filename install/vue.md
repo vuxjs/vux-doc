@@ -52,7 +52,7 @@ export default {
 </script>
 
 <style>
-@import '~vux/vux.css';
+@import '~vux/dist/vux.css';
 </style>
 ````
 
