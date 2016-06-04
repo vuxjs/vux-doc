@@ -1,9 +1,5 @@
 # 常见问题
 
-## 为什么文档这么久才写完
-
-主要是懒。
-
 ## 其他格式的文档有么?
 
 + [PDF](https://www.gitbook.com/download/pdf/book/vuxjs/vux)
@@ -12,7 +8,7 @@
 
 ## 不懂Vue， 怎么用
 
-你给我滚出去
+去学
 
 ## Vux是微信官方项目吗
 
