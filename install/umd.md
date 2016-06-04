@@ -15,6 +15,7 @@ cd my-project
 npm install
 #安装 vux 
 npm install vux
+# 开发版安装请使用 npm install vux@next
 # 调试
 npm run dev
 ```

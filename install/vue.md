@@ -13,7 +13,7 @@ vue init webpack my-project
 cd my-project
 # npm可能出现访问速度极慢的情况，推荐使用cnpm
 npm install
-#安装 vux 
+#安装 vux 发版请使用 npm install vux@next
 npm install vux
 # 调试
 npm run dev
