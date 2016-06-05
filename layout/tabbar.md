@@ -8,6 +8,7 @@
 |-----|-----|-----|-----|
 | selected | Boolean | false | 是否选中 |
 | show-dot | Boolean | false | 是否显示红色提示点 |
+| link | String or Object | - | 普通链接或者｀v-link｀参数值, `0.1.1`开始支持。 ｜
 
 ## Slots
 
