@@ -23,6 +23,7 @@
    * [Tabbar 底部导航](layout/tabbar.md)
    * [ButtonTab](layout/button-tab.md)
    * [Timeline](layout/timeline.md)
+   * [XHeader](layout/x-header.md)
    * Step
 * [UI组件](ui/readme.md)
    * [divider 横向分隔线](ui/divider.md)
