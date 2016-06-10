@@ -31,7 +31,7 @@
 
 <template>
 <group>
-  <x-number title="Number" :value=0 :min=0 :max=10 @change="change"></x-number>
+  <x-number title="Number" :value=0 :min=0 :max=10 @on-change="change"></x-number>
 </group>
 </template>
 <script>
