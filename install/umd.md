@@ -36,7 +36,7 @@ import { Group, Cell } from 'vux'
 
 // 推荐的方式，按需加载需要的组件
 import Group from 'vux/dist/components/group'
-import Cell from 'vux/dist/components/cell/'
+import Cell from 'vux/dist/components/cell'
 
 export default {
   components: {
@@ -47,6 +47,6 @@ export default {
 </script>
 
 <style>
-@import '~vux/vux.css';
+@import '~vux/dist/vux.css';
 </style>
 ````
