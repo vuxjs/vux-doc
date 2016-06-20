@@ -24,8 +24,8 @@
 </div>
 
 <!--include the components you need-->
-<script src="vux/components/group/index.js"></script>
-<script src="vux/components/cell/index.js"></script>
+<script src="vux/dist/components/group/index.js"></script>
+<script src="vux/dist/components/cell/index.js"></script>
 
 <script>
 // register components
