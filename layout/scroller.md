@@ -52,7 +52,15 @@ pullup-config默认
 
 | 名字 | 参数 | 描述  |
 |-----|-----|-----|
-| reset | 无 | 重新渲染，因为scroller并不知道内部内容是否变化，因为需要手动取得`ref`进行reset, 并且需要在`$nextTick`中执行。
+| reset | 无 | 重新渲染，因为scroller并不知道内部内容是否变化，因此需要手动取得`ref`进行reset, 并且需要在`$nextTick`中执行。
+
+示例：
+
+``` javascript
+this.$nextTick(() => {
+  this.$refs.scroller.reset()
+})
+```
 
 ## Events
 
