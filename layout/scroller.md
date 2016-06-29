@@ -60,6 +60,8 @@ pullup-config默认
 |-----|-----|-----|
 | pullup:loading| (scroller的uuid) | 上拉加载时触发的事件，需要在获取数据后使用`$broadcast`触发状态更新， `this.$broadcast('pullup:reset', uuid)` |
 | pulldown:loading| (scroller的uuid) | 下拉加载时触发的事件，需要在获取数据后使用`$broadcast`触发状态更新， `this.$broadcast('pulldown:reset', uuid)` |
+| pullup:disable | (scroller的uuid) | 禁用上拉加载，当没有更多数据需要禁用时使用`$broadcast`触发禁用，`this.$broadcast('pullup:disable', uuid)` |
+| pullup:enable | (scroller的uuid) | 启用上拉加载，禁用插件后，当又重新需要时使用`$broadcast`触发重新启用，`this.$broadcast('pullup:enable', uuid)` |
 
 
 
@@ -80,6 +82,7 @@ pullup-config默认
 + [scroller](https://vux.li/#!/component/scroller)
 + [pullup](https://vux.li/#!/component/pullup)
 + [pulldown](https://vux.li/#!/component/pulldown)
++ [pulldown & pullup](https://vux.li/#!/component/pulldown-pullup)
 
 ``` html
 <scroller lock-y :scrollbar-x="false">
