@@ -22,7 +22,7 @@
 
 | 事件名       | 参数       | 说明 |
 | ----------- | ---------------------- | ---------- |
-| on-menu-click | (menuKey, menuValue) | 点击菜单时触发 | 
+| on-menu-click | (menuKey, menuValue) | 点击菜单时触发 |
 | on-cancel | -- | 点击取消时触发 |
 
 
@@ -40,7 +40,7 @@
   <!-- 显示取消按钮 -->
   <actionsheet :show.sync="show2" :menus="menus2" show-cancel></actionsheet>
   <!-- 菜单响应 -->
-  <actionsheet :show.sync="show3" :menus="menus3" @menu-click="click" show-cancel @cancel-text="取消"></actionsheet>
+  <actionsheet :show.sync="show3" :menus="menus3" @on-click-menu="click" show-cancel @cancel-text="取消"></actionsheet>
 </div>
 </template>
 
