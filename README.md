@@ -5,10 +5,7 @@
 </p>
 <p align="center">Be Cool with Vue and WeUI.</p>
 <p align="center">
-  <a href="https://www.google.com/">
-    <img src="https://img.shields.io/badge/Fuck%20-Baidu-ff0000.svg?style=flat-square">
-  </a>
-  <a href="https://vux.bearychat.com">
+  <a href="https://vuxjs.gitbooks.io/vux/content/about/questions.html">
     <img src="https://img.shields.io/badge/chat-%20on%20bearychat%20-82c547.svg?style=flat-square">
   </a>
 </p>
