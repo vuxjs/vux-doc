@@ -8,12 +8,20 @@
 | 参数         | 说明                  | 类型        | 默认值 |
 | ----------- | ---------------------- | ---------- | ------- |
 | list | 列表数据 | Array | 无 |
+| direction | 方向 | String |　horizontal |
 | show-dots | 是否显示indicator,只在list快捷形式下显示 | Boolean | true |
+| show-desc-mask | 是否显示描述梦曾 | Boolean | true | 
+| dots-position | indicator位置 | String | right |
+| dots-class | indicator的附加样式类 | String | 无 |
 | auto | 是否自动播放 | Boolean | false |
+| loop | 是否循环播放 | Boolean | 无 |
+| aspect-ratio | 纵横比,设置则自动根据宽度计算高度 | Number | 无 |
+| min-moving-distance | 最小滑动距离 | Number | 0 |
+| index | 指定显示item的 | Number | 0 | 
 | interval | 轮播时间间隔 | Number | 3000 |
 | threshold | 滑动距离阀值，当按住屏幕滑动超过此距离，松开手时，自动滑，否则不滑动 | Number | 50 |
 | duration | 滑屏动画时间，单位ms，数值越小，滑动越快 | Number | 300 |
-| height | 容器高度 | Number | 180 |
+| height | 容器高度 | String | auto |
 
 ## 示例
 
